@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(230, 210, 233);
+    font:12px Tahoma,Arial,SimSun,"Hiragino Sans GB","\5b8b\4f53",Sans-serif;
+    /* color: #122e67; */
+}
+ul,ol{
+    list-style-type: none;  /*去除前缀*/
+}
+a{
+    text-decoration: none;  /*去除下划线*/
+}
+*,*::before,*::after{
+    -moz-box-sizing: border-box;  /*盒型*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfloat:after{ /*去浮动影响*/
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+clearfloat{
+    zoom: 1;
+}

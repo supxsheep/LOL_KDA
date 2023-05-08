@@ -1,0 +1,628 @@
+.main-box{
+    margin: 0 auto;
+    position: relative;
+}
+/*--------------------------------------*/
+/* 1--banner 样式 */
+.wrap-1{
+    position: relative;
+}
+.wrap-1 video{
+    width: 100%;
+    height: 100%;
+}
+.wrap-1 .pic-1{
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.wrap-1 .pic-2{
+    position: absolute;
+    top: 65px;
+    left: 200px;
+}
+/*分割框--------------------------------*/
+.line1{
+    position: absolute;
+    top: 930px;
+    z-index: 1;
+}
+/*--------------------------------------*/
+/*2--萨勒芬妮 主题制作 样式*/
+.wrap-2{
+    position: relative;
+    background:url(../images/main-bg.jpg) no-repeat;
+    z-index: 0;
+}
+.wrap-2 .back-pic{
+    width: 100%;
+    height: 1052px;
+}
+/*video*/
+.wrap-2 .back-pic .vid1{
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.wrap-2 .back-pic .vid2{
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.wrap-2 .back-pic .vid3{
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.wrap-2 .mark{ /*头标*/
+    position: absolute;
+    top: 123px;
+}
+.wrap-2 .play{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    animation: play 4s infinite linear;
+}
+/*播放按钮动画制作*/
+@keyframes play {
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.wrap-2 .word-inner{
+    width: 1400;
+    height: 417px;
+    /* background-color: blanchedalmond; */
+    position: absolute;
+    top: 285px;
+    left: 260px;
+}
+/* 文本top-mid-btm样式*/
+.wrap-2 .word-top{
+    width: 410px;
+    height: 131px;
+}
+.wrap-2 .title img{
+    vertical-align: -5px;
+}
+.wrap-2  .title{
+    width: 410px;
+    /* height: 40px; */
+    color: #d7deff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.wrap-2 .content{
+    width: 410px;
+    /* height: 81px; */
+    color: #96a2dd;
+    font-size: 14px;
+    line-height: 2;
+}
+.wrap-2 .content a{
+    color: #d7deff;
+    font-size: 14px;
+    line-height: 2;
+}
+.wrap-2 .word-mid{
+    margin-top: 10px;
+}
+.wrap-2 .word-btm{
+    margin-top: 50px;
+}
+/*头像框-点击轮播-热卖按钮*/
+.cnt-btm{
+    width: 1415px;
+    height: 275px;
+    position: absolute;
+    top:700px;
+    left: 260px;
+}
+.cnt-btm .pic-1{
+    width: 162px;
+    height: 235px;
+}
+.cnt-btm .price{
+    font-size: 100px;
+    line-height: 105px;
+    position: absolute;
+    right: 40px;
+    bottom: 160px;
+    color: #d7deff;
+}
+.cnt-btm .price-qb{
+    position: absolute;
+    right: 10px;
+    bottom: 170px;
+}
+.cnt-btm .assignment{
+    position: absolute;
+    top: 250px;
+    left: 420px;
+}
+.cnt-btm .possession{
+    position: absolute;
+    top: 130px;
+    right: 5px;
+}
+/*轮播 制动*/
+.cnt-btm-lb{
+    width: 582px;
+    height: 150px;
+    position: absolute;
+    top: 800px;
+    left: 700px;
+}
+.cnt-btm-lb li{
+    float: left;
+    width: 194px;
+    height: 137px;
+    cursor: pointer;
+}
+.cnt-btm-lb img{
+    width: 155px;
+    height: 110px;
+}
+.cnt-btm-lb li:hover{
+    transform: scale(1.2);
+    transition:.7s;
+    cursor: pointer;
+}
+/*星籁歌姬 萨勒芬妮 临售处*/
+.mark-1{
+    position: absolute;
+    left: 260px;
+}
+.newHero{
+    position: absolute;
+    bottom: 100px;
+    left: 250px;
+}
+.heroPrice{
+    position: absolute;
+    bottom: 160px;
+    right: 510px;
+}
+.heroPrice .price,.price-js{
+    font-size: 100px;
+    line-height: 105px;
+    color: #d7deff;
+    display: inline-block;
+}
+.heroPrice .hero-line{
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align: 5px;
+}
+.heroPrice .js{
+    display: inline-block;
+    width: 18px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #a8e1f4;
+    font-family: 'sellnum-7';
+    writing-mode:vertical-lr;
+}
+.heroPrice .text{
+    color: #a8b8fa;
+    font-size: 14px;
+    line-height: 36px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.possession1{
+    position: absolute;
+    bottom: 170px;
+    left: 1410px;
+}
+/*分割框--------------------------------*/
+.line2{
+    position: absolute;
+    top: 2465px;
+    z-index: 1;
+}
+/*--------------------------------------*/
+/*2--阿狸 主题制作 样式*/
+.wrap-3{
+    position: relative;
+    background: url(../images/bg2.jpg) no-repeat;
+}
+.wrap-3 .cont-1{
+    position: absolute;
+    top: 800px;
+}
+.cont-1 .play-AL{
+    margin-left: 10px;
+    margin-right: 580px;
+    animation: play 4s infinite linear;;
+}
+.cont-1 .AL-price{
+    font-size: 100px;
+    line-height: 105px;
+    color: #a8e1f4;
+}
+.cont-1 .possession-AL{
+    position: absolute;
+    top: 60px;
+}
+.cont-2-top{
+    position: absolute;
+    top: 1080px;
+    left: 260px;
+}
+/*出售详情*/ /*ALL----------------*/
+.skin p{
+    color: #7e8ccd;
+    font-size: 14px;
+}
+.skin .p1{
+    margin-top: 20px;
+}
+.skin span{
+    width: 60px;
+    height: 16px;
+    color: #afbcf9;
+    font-weight: bold;
+}
+.cont-2-top .load-AL{
+    position: absolute;
+    bottom: 200px;
+    left: 550px;
+}
+/*阿狸 临售处*/
+.cont-2-top .price-AL{
+    position: absolute;
+    bottom: 280px;
+    right: -110px;
+}
+.cont-2-top .price-AL p{
+    font-size: 100px;
+    line-height: 105px;
+    color: #a8e1f4;
+}
+.skin-AL{
+    width: 1415px;
+    position: absolute;
+    top: 1280px;
+    left: 260px;
+}
+.skin-AL .skin-xc{
+    margin-top: 50px;
+}
+.skin-AL .skin-xc li{
+    float: left;
+    margin-right: 5px;
+}
+.skin-AL .skin-xc p{
+    color: #c4cdfb;
+    font-size: 16px;
+    text-align: center;
+}
+/*分割框--------------------------------*/
+.line3{
+    position: absolute;
+    top: 4296px;
+    z-index: 1;
+}
+
+/*4--阿卡丽 主题制作----------------*/
+.wrap-4{
+    position: relative;
+}
+.wrap-4 .title-AKL{
+    position: absolute;
+    top: 150px;
+}
+.wrap-4 .load-AKL{
+    position: absolute;
+    top: 350px;
+    left: 120px;
+}
+.wrap-4 .skin-xc{
+    width: 1415px;
+    position: absolute;
+    top: 780px;
+    left: 260px;
+    margin-top: 50px;
+}
+.wrap-4 .skin-xc li{
+    float: left;
+    margin-right: 80px;
+}
+.wrap-4 .skin-xc p{
+    color: #c4cdfb;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*分割框--------------------------------*/
+.line4{
+    position: absolute;
+    top: 5445px;
+    z-index: 1;
+}
+/* 5--伊芙琳 主题制作------------------- */
+.wrap-5{
+    position: relative;
+}
+.wrap-5 .title-YFL{
+    position: absolute;
+    top: 150px;
+}
+.wrap-5 .load-YFL{
+    position: absolute;
+    top: 350px;
+    left: 120px;
+}
+.wrap-5 .skin-xc{
+    width: 1415px;
+    position: absolute;
+    top: 780px;
+    left: 260px;
+    margin-top: 50px;
+}
+.wrap-5 .skin-xc li{
+    float: left;
+    margin-right:-20px;
+}
+.wrap-5 .skin-xc p{
+    color: #c4cdfb;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*分割框--------------------------------*/
+.line5{
+    position: absolute;
+    top: 6527px;
+    z-index: 1;
+}
+/* 6--卡萨 主题制作------------------- */
+.wrap-6{
+    position: relative;
+    top: 25px;
+}
+.wrap-6 .title-KS{
+    position: absolute;
+    top: 150px;
+}
+.wrap-6 .load-KS{
+    position: absolute;
+    top: 350px;
+    left: 120px;
+}
+/*分割框--------------------------------*/
+.line6{
+    position: absolute;
+    top: 7643px;
+    z-index: 1;
+}
+/* 7--至臻卡萨 主题制作------------------- */
+.wrap-7{
+    position: relative;
+    top: 25px;
+}
+.wrap-7 .title-ZZKS{
+    position: absolute;
+    top: 150px;
+}
+.wrap-7 .load-ZZKS{
+    position: absolute;
+    top: 350px;
+    left: 120px;
+}
+
+/*分割框--------------------------------*/
+.line7{
+    position: absolute;
+    top: 8750px;
+    z-index: 1;
+}
+
+/* 8--大礼包 制作------------------- */
+.wrap-8{
+    position: relative;
+    top: 25px;
+    background: url(../images/bg8.jpg) no-repeat;
+}
+.wrap-8 .KDA-lift{
+    position: absolute;
+    top: 130px;
+    left: 620px;
+}
+.wrap-8 .KDA-skin{
+    position: absolute;
+    top: 350px;
+    left: 330px;
+}
+.wrap-8 .KDA-skin li{
+    float: left;
+    margin-right: 50px;
+}
+.wrap-8 .KDA-cont{
+    position: absolute;
+    top: 800px;
+    left: 360px;;
+}
+.wrap-8 .KDA-cont div{
+    float: left;
+    margin-right: 25px;
+}
+.wrap-8 .KDA-cont .cont-1 p{
+    font-size: 100px;
+    color: #a8e1f4;
+    font-family: 'sellnum-7';
+}
+.wrap-8 .t1{
+    width: 219px;
+    height: 24px;
+    background: url(../images/bag-include-hero.png) no-repeat;
+    color: #060609;
+    text-align: center;
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.wrap-8 .t{
+    color: #7e8ccd;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.wrap-8 span{
+    color: #afbcf9;
+    font-weight: bold;
+}
+.wrap-8 .buyBtn{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+/*分割框--------------------------------*/
+.line8{
+    position: absolute;
+    top: 9835px;
+    z-index: 1;
+}
+
+
+/* 9--小小英雄 制作------------------- */
+.wrap-9{
+    position: relative;
+    top: 25px;
+    background: url(../images/bg9.jpg) no-repeat;
+}
+.wrap-9 .litHero-title{
+    position: absolute;
+    top: 180px;
+    left: 38%;
+}
+.wrap-9 .smallhero{
+    position: absolute;
+    top: 280px;
+    left: 250px;
+}
+.wrap-9 .smallhero li{
+    background: url(../images/small-hero-bg.png) no-repeat;
+    width: 261px;
+    height: 429px;
+    display: inline-flex;
+    /* display: flex; */
+    flex-direction: row;
+    position: relative;
+    margin-right: 15px;
+    opacity: 0.5;
+}
+.wrap-9 .smallhero img{
+
+    cursor: pointer;
+}
+.wrap-9 .img-1{
+    position: absolute;
+    left: -65px;
+}
+.wrap-9 .down{
+    position: absolute;
+    top: 45px;
+}
+.wrap-9 .space{
+    position: absolute;
+    top: 800px;
+    left: 13%;
+}
+.wrap-9 .space p{
+    color: #686bce;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+/*小英雄图片*/
+.smallhero-pic{
+    width: 1415px;
+    height: 200px;
+    position: absolute;
+    top: 900px;
+    left: 13%;
+}
+.smallhero-pic li{
+    width: 215px;
+    height: 200px;
+    float: left;
+    margin-right: 11px;
+    text-align: center;
+}
+.smallhero-pic .kong{
+    margin-right: 50px;
+}
+
+.nav{
+    width: 230px;
+    height: 532px;
+    position: fixed;
+    top: 300px;
+    right: 0;
+    background: url(../images/side-bar.png) no-repeat;
+    z-index: 5;
+}
+.nav li{
+    width: 230px;
+    height: 62px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: opacity 0.1s ease-in-out;
+}
+.nav .li1{
+    width: 230px;
+    height: 84px;
+}
+.nav .li1:hover{
+    background: url(../images/side-bar-on.png);
+    background-size: 230px 525px;
+}
+.nav .li2:hover{
+    background: url(../images/side-bar-on.png);
+    background-position: 0 -86px;
+}
+.nav .li3:hover{
+    background: url(../images/side-bar-on.png);
+    background-position: 0 -150px;
+}
+.nav .li4:hover{
+    background: url(../images/side-bar-on.png);
+    background-position: 0 -214px;
+}
+.nav .li5:hover{
+    background: url(../images/side-bar-on.png);
+    background-position: 0 -278px;
+}
+.nav .li6:hover{
+    background: url(../images/side-bar-on.png);
+    background-position: 0 -342px;
+}
+.nav .li7:hover{
+    background: url(../images/side-bar-on.png);
+    background-position: 0 -406px;
+}
+.nav .li8:hover{
+    background: url(../images/side-bar-on.png);
+    background-position: 0 -470px;
+}
